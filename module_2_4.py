@@ -22,3 +22,5 @@ for digits in numbers:
 print(f"Исходный код:\nnumbers = {numbers}")
 print(f"Primes: {primes}")
 print(f"Not Primes: {not_primes}")
+
+# Пока, такие вот задачи даются кровью прям из глаз и ушей.
