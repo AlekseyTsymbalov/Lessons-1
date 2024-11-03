@@ -7,6 +7,7 @@ for digits in numbers:
 
     if digits < 2:
         is_prime = False
+        continue
 
     for  divider in range(2, int(digits ** 0.5) + 1):
         if digits % divider == 0:
