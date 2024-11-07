@@ -1,3 +1,4 @@
+import math
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
 primes = []
 not_primes = []
@@ -9,7 +10,7 @@ for digits in numbers:
         is_prime = False
         continue
 
-    for  divider in range(2, int(digits ** 0.5) + 1):
+    for  divider in range(2, int(math.sqrt(digits)) + 1):
         if digits % divider == 0:
             is_prime = False
             break
