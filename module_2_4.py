@@ -9,8 +9,8 @@ for digits in numbers:
     if digits < 2:
         is_prime = False
         continue
-
-    for  divider in range(2, int(math.sqrt(digits)) + 1):
+# В линии 13 закомментировал второй вариант решения перебора. Я так понимаю, он менее затратный по ресурсу и времени
+    for  divider in range(2, int(math.sqrt(digits)) + 1): # range(2, (digits // 2) + 1):
         if digits % divider == 0:
             is_prime = False
             break
