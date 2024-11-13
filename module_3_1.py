@@ -1,23 +1,3 @@
-# calls = 0
-#
-# def count_calls():
-#     global calls
-#     calls += 1
-#
-#
-# def string_info(string):
-#     count_calls()
-#     length = len(string)
-#     upper = string.upper()
-#     lower = string.lower()
-#     return (length, upper, lower)
-#
-#
-# def is_contains():
-#     count_calls()
-#     string_lower = string.lower()
-#     return any(string_lower == item.lower() for item in )
-
 # Глобальная переменная для подсчета вызовов функций
 calls = 0
 
