@@ -4,7 +4,7 @@ def generate_password(n):
     pairs = []
 
     for i in range(1, n):
-        for j in range(i + 1, n + 1):
+        for j in range(i + 1, n):
             pairs.append((i, j))
 
     for a, b in pairs:
