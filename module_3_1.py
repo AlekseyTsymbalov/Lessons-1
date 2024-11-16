@@ -25,3 +25,5 @@ print(is_contains('cycle', ['recycling', 'cyclic']))    # Вывод: False
 
 # Вывод количества вызовов функций
 print(calls)  # Вывод: 4
+
+# Изменить условие задачи и уже не решу её...
